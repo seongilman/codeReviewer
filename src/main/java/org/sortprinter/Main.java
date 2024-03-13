@@ -24,6 +24,7 @@ public class Main {
         sp.insertNumber(9);
 
         sp.setSortSolution(getSortSolution(SortType.BUBBLE));
+//        sp.setSortSolution(getSortSolution(SortType.SELECTION));
 
         sp.sort();
         sp.showNumbers();
