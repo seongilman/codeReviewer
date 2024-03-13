@@ -17,16 +17,21 @@ public class Main {
 
     public static void main(String[] args) {
         SortPrinter sp = new SortPrinter();
+        //숫자 추가
         sp.insertNumber(1);
         sp.insertNumber(5);
         sp.insertNumber(7);
         sp.insertNumber(2);
         sp.insertNumber(9);
 
+        //정렬 방법 선택
         sp.setSortSolution(getSortSolution(SortType.BUBBLE));
 //        sp.setSortSolution(getSortSolution(SortType.SELECTION));
 
+        //정렬
         sp.sort();
+
+        //결과 보기
         sp.showNumbers();
     }
 
