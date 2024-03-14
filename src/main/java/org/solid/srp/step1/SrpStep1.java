@@ -7,7 +7,7 @@ class FuelSystem {
     }
 }
 
-public class Vehicle {
+class Vehicle {
 
     private final int maxFuel;
     private int remainingFuel;

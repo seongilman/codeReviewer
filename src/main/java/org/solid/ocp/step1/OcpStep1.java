@@ -32,7 +32,7 @@ class Intimate implements GreeterFormality {
     }
 }
 
-public class Greeter {
+class Greeter {
     final GreeterFormality formality;
 
     public Greeter(GreeterFormality formality) {

@@ -12,7 +12,7 @@ interface UnFlyableBird extends Bird {
     public void swim();
 }
 
-public class Penguin implements UnFlyableBird {
+class Penguin implements UnFlyableBird {
     String currentLocation;
     int numberOfFeathers;
 

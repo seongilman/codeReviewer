@@ -5,7 +5,7 @@ interface DrivingMode {
     int getSuspensionHeight();
 }
 
-public class EventHandler {
+class EventHandler {
 
     private Vehicle vehicle;
 
