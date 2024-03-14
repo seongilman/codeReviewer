@@ -1,4 +1,4 @@
-package org.challenge.step1;
+package org.solid.ocp.greeter;
 
 import java.util.HashMap;
 import java.util.Map;
