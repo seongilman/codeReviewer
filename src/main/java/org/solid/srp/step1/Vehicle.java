@@ -1,4 +1,4 @@
-package org.solid.srp.vehicle;
+package org.solid.srp.step1;
 
 class FuelSystem {
     public void reFuel(Vehicle vehicle, int fuel) {

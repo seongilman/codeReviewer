@@ -1,4 +1,4 @@
-package org.solid.ocp.greeter;
+package org.solid.ocp.step1;
 
 import java.util.HashMap;
 import java.util.Map;
