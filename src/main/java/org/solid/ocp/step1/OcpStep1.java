@@ -42,7 +42,9 @@ class Greeter {
     public String greet() {
         return formality.greet();
     }
+}
 
+class GreeterTest {
     public static void main(String[] args) {
         //GreeterFormality 구현체 등록
         Map<String, GreeterFormality> formalityMap = new HashMap<>();
