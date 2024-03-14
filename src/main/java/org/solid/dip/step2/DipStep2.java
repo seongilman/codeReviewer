@@ -45,7 +45,7 @@ class WeatherTrackerTest {
         notifierMap.put("rainy", new Phone());
         notifierMap.put("sunny", new Emailer());
 
-        //Notifier 구현체 주입
+        //weatherDescription에 따라 구현체를 선택하도록 구현체가 아닌 구현제 목록 주입
         WeatherTracker weatherTracker = new WeatherTracker(notifierMap);
         weatherTracker.notify("rainy");
         weatherTracker.notify("sunny");

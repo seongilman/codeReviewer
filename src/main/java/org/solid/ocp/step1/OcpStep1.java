@@ -44,11 +44,13 @@ class Greeter {
     }
 
     public static void main(String[] args) {
+        //GreeterFormality 구현체 등록
         Map<String, GreeterFormality> formalityMap = new HashMap<>();
         formalityMap.put("casual", new Casual());
         formalityMap.put("formal", new Formal());
         formalityMap.put("intimate", new Intimate());
 
+        //GreeterFormality 구현체 주입
         String greet = new Greeter(formalityMap.get("formal")).greet();
         System.out.println(greet);
     }
